@@ -1,0 +1,182 @@
+body {
+  background: url('../static/images/BW Mountain.png') center/cover no-repeat fixed;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Allan', sans;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.initial-container {
+  height: 100vh;
+}
+
+.container2 {
+  height: 100vh;
+}
+
+.nav-item {
+  font-size: 3vh;
+  color: white;
+  font-family: 'Allan', sans;
+  padding: 4vh;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #00d0ff;
+  cursor: pointer;
+}
+
+.nav {
+  width: 20vw;
+  left: 80vw;
+}
+
+.custom-nav {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  top: 50%;
+  transform: translateY(-65%);
+  right: 0;
+  padding-right: 5vw;
+  z-index: 0;
+}
+
+.break {
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  background-color: white;
+  padding: 3vh 5vw;
+  z-index: 1;
+}
+
+.contact {
+  text-align: center;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+/*background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+
+#Embedded {
+  background: url(../../static/images/uC_white.png) center/contain no-repeat;
+}
+
+#Embedded:hover {
+  background: url(../../static/images/uC_blue.png) center/contain no-repeat;
+}
+
+#Application {
+  background: url(../../static/images/application_white.png) center/contain no-repeat;
+}
+
+#Application:hover {
+  background: url(../../static/images/application_blue.png) center/contain no-repeat;
+}
+
+#Web {
+  background: url(../../static/images/web_gray.png) center/contain no-repeat;
+}
+
+#Web:hover {
+  background: url(../../static/images/web_blue.png) center/contain no-repeat;
+}
+
+.image-class {
+    max-width: 270px;
+    max-height: 270px;
+    width: 50vw;
+    height: 50vw;
+    margin: 0 auto;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.Banner {
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  font-size: 2vw;
+  color: white;
+  padding: 1%;
+}
+
+.project {
+    background-color: white;
+    position: relative;
+    padding: 5vh 10vw;
+}
+
+.project h1 {
+    font-family: 'Allan', cursive;
+    font-style: italic;
+    color: black;
+}
+
+.project p {
+    color: black;
+    padding-top: 2em;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+}
+
+.projectlink a {
+  color: black;
+}
+
+.projectlink a:hover {
+  cursor: pointer;
+}
+
+.home-tab {
+  width: 5vw;
+  max-width: 70px;
+  min-width: 45px;
+  height: 10vh;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+}
+
+.home-tab-span {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.home-link, .home-link:active, .home-link:hover, .home-link:focus {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.section-break {
+  height: 30vh;
+}
+
+.rowofthree {
+  width: 25vw;
+  padding: 1vw;
+  display: inline-block;
+}
