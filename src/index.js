@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
-import App from './components/app';
-import Embedded from './components/embedded';
-import Application from './components/application';
-import Web from './components/web';
+import App from './components/Home/app';
+import Embedded from './components/Embedded/embedded';
+import Application from './components/Application/application';
+import Web from './components/Web/web';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);

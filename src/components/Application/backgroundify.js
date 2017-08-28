@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HomeTab from './hometab';
+import HomeTab from '../hometab';
 
 export default class Backgroundify extends Component {
   render() {
