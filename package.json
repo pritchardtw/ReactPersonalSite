@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "postinstall": "webpack -p",
-    "start": "node server.js" 
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -28,14 +28,15 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.15.4",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-image-lightbox": "^4.1.0",
     "react-redux": "4.3.0",
     "react-router": "^2.8.1",
-    "webpack": "^1.12.9",
     "react-router-dom": "^4.2.2",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "webpack": "^1.12.9"
   }
 }
