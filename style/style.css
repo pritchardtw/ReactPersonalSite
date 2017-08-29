@@ -1,6 +1,12 @@
+html {
+    height: 100vh; /* set viewport constraint */
+    min-height: 100%; /* enforce height */
+}
+
 body {
   background: url('../static/images/BW Mountain.png') center/cover no-repeat fixed;
   height: 100vh;
+  min-height: 100%;
 }
 
 h1 {
