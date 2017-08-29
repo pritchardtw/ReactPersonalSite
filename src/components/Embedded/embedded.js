@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import IntelliJoe from './intellijoe';
+import LinearLightSource from './linearlightsource';
+import Rsp from './rsp';
 import SectionBreak from '../sectionbreak';
 
 export default class Embedded extends Component {
@@ -13,6 +15,9 @@ export default class Embedded extends Component {
       <div>
         <IntelliJoe />
         <SectionBreak />
+        <LinearLightSource />
+        <SectionBreak />
+        <Rsp />
       </div>
     );
   }

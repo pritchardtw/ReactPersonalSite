@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Backgroundify from './backgroundify';
 import SectionBreak from '../sectionbreak';
+import DevelopingAndroidApps from './developingandroidapps';
+import HappyBirthday from './happybirthday';
 
 export default class Application extends Component {
 
@@ -13,6 +15,9 @@ export default class Application extends Component {
       <div>
         <Backgroundify />
         <SectionBreak />
+        <DevelopingAndroidApps />
+        <SectionBreak />
+        <HappyBirthday />
       </div>
     );
   }

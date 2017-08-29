@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import HomeTab from '../hometab';
-import PictureViewer from '../pictureviewer';
+import Project from '../project';
 
 const images = [
   '../../static/images/web/blog1.png',
@@ -12,14 +11,11 @@ export default class ReactRedux extends Component {
 
   render() {
     return(
-      <div className="project">
-        <HomeTab />
-        <h1>React & Redux!</h1>
-        <p>
-          React and Redux App!
-        </p>
-        <PictureViewer images={images} pictureStyle="rowofthree"/>
-      </div>
+      <Project
+        title="React & Redux Blog App!"
+        description="Check out this blog app I created in the react and redux course I took! It uses react, redux, redux-promise, redux-forms, amongst other packages. It interfaces
+        to an api where you can perform all CRUD operations."
+        images={images} />
     );
   }
 }
