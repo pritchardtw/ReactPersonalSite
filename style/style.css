@@ -25,10 +25,17 @@ body {
   right: 0;
   bottom: 0;
   margin: auto;
-  max-width: 50%;
-  max-height: 50%;
+  width: 50%;
+  height: auto;
   min-width: 50%;
   min-height: 50%;
+}
+
+@media screen and (max-width: 3264px) {
+  #bg img {
+    height: 50%;
+    width: auto;
+  }
 }
 
 h1 {
