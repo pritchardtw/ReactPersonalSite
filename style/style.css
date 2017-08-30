@@ -98,26 +98,32 @@ a, a:hover, a:focus {
 
 #Embedded {
   background: url(../../static/images/uC_white.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #999;
 }
 
 #Embedded:hover {
   background: url(../../static/images/uC_blue.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
 }
 
 #Application {
   background: url(../../static/images/application_white.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #999;
 }
 
 #Application:hover {
   background: url(../../static/images/application_blue.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
 }
 
 #Web {
   background: url(../../static/images/web_gray.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #999;
 }
 
 #Web:hover {
   background: url(../../static/images/web_blue.png) center/contain no-repeat;
+  box-shadow: 9px 9px 9px #00d0ff;
 }
 
 .image-class {
