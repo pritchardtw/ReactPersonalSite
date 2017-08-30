@@ -16,7 +16,7 @@ export default class PictureViewer extends Component {
     return _.map(this.props.images, (image, index) => {
       return (
         <img
-          className={`img-responsive ${this.props.pictureStyle}`}
+          className={`img-responsive clickable ${this.props.pictureStyle}`}
           id={index.toString()}
           src={image}
           onClick={(event) => {
