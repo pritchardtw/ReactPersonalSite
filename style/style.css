@@ -19,7 +19,7 @@
   min-height: 50%;
 }
 
-@media screen and (max-width: 3264px) {
+@media screen and (max-width: 1920px) {
   #bg img {
     height: 50%;
     width: auto;
