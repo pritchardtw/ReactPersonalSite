@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import _ from 'lodash';
 
 export default class ProjectLink extends Component {
+
+  renderPoints() {
+    return _.map(this.props.points, (point) => {
+      return (<li>{point}</li>);
+    });
+  }
+
   render() {
     return(
-      <div className="projectlink">
-        <Link to={this.props.name}>
+      <Link to={this.props.name}>
+        <div className="projectlink">
+          <div className="image-class" id={this.props.name}></div>
           <h1>{this.props.name}!</h1>
-          <div className="image-class" id={this.props.name}>
-          </div>
-        </Link>
-      </div>
+          <ul>
+            {this.renderPoints()}
+          </ul>
+        </div>
+      </Link>
     )
   }
 }

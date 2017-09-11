@@ -20,8 +20,6 @@ export default class PictureViewer extends Component {
           id={index.toString()}
           src={image}
           onClick={(event) => {
-            console.log(event.target.id);
-            console.log(parseInt(event.target.id));
             this.setState({ photoIndex: parseInt(event.target.id), isOpen: true })
           }}
         />

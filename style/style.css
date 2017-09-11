@@ -98,39 +98,39 @@ a, a:hover, a:focus {
 
 #Embedded {
   background: url(../../static/images/uC_white.png) center/contain no-repeat;
-  box-shadow: 9px 9px 9px #999;
+  /*box-shadow: 9px 9px 9px #999;*/
 }
 
-#Embedded:hover {
+/*#Embedded:hover {
   background: url(../../static/images/uC_blue.png) center/contain no-repeat;
   box-shadow: 9px 9px 9px #00d0ff;
-}
+}*/
 
 #Application {
   background: url(../../static/images/application_white.png) center/contain no-repeat;
-  box-shadow: 9px 9px 9px #999;
+  /*box-shadow: 9px 9px 9px #999;*/
 }
 
-#Application:hover {
+/*#Application:hover {
   background: url(../../static/images/application_blue.png) center/contain no-repeat;
   box-shadow: 9px 9px 9px #00d0ff;
-}
+}*/
 
 #Web {
   background: url(../../static/images/web/gray_monitor.png) center/contain no-repeat;
-  box-shadow: 9px 9px 9px #999;
+  /*box-shadow: 9px 9px 9px #999;*/
 }
 
-#Web:hover {
+/*#Web:hover {
   background: url(../../static/images/web/blue_monitor.png) center/contain no-repeat;
   box-shadow: 9px 9px 9px #00d0ff;
-}
+}*/
 
 .image-class {
     max-width: 270px;
     max-height: 270px;
-    width: 50vw;
-    height: 50vw;
+    width: 15vw;
+    height: 15vw;
     margin: 0 auto;
 }
 
@@ -175,6 +175,33 @@ a, a:hover, a:focus {
 
 .projectlink a:hover {
   cursor: pointer;
+}
+
+.projectlink {
+  text-align: center;
+  padding: 2vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: gray 9px 9px 9px;
+  margin: 4vh 0;
+  border-radius: 5px;
+}
+
+.projectlink ul li {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 1vh;
+}
+
+.projectlink ul {
+  padding: 15px;
+}
+
+.projectlink h1 {
+  color: black;
 }
 
 .home-tab {
