@@ -5,6 +5,7 @@ import _ from 'lodash';
 export default class ProjectLink extends Component {
 
   renderPoints() {
+    console.log(this.props.points);
     return _.map(this.props.points, (point) => {
       return (<li>{point}</li>);
     });

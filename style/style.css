@@ -177,6 +177,11 @@ a, a:hover, a:focus {
   cursor: pointer;
 }
 
+.projectlink:hover {
+  box-shadow: gray 15px 15px 15px;
+  transition: box-shadow 150ms ease-in;
+}
+
 .projectlink {
   text-align: center;
   padding: 2vw;
@@ -186,6 +191,7 @@ a, a:hover, a:focus {
   box-shadow: gray 9px 9px 9px;
   margin: 4vh 0;
   border-radius: 5px;
+  transition: box-shadow 150ms ease-in
 }
 
 .projectlink ul li {
