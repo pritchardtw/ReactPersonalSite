@@ -6,6 +6,7 @@ import Baywatch from './baywatch';
 import CodeAcademy from './codeacademy';
 import PersonalSite from './personalsite';
 import ReactPersonalSite from './reactpersonalsite';
+import HealthApp from './health_app';
 
 export default class Web extends Component {
 
@@ -16,6 +17,8 @@ export default class Web extends Component {
   render() {
     return(
       <div>
+        <HealthApp />
+        <SectionBreak />
         <ReactPersonalSite />
         <SectionBreak />
         <ReactRedux />

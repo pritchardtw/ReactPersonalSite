@@ -6,11 +6,13 @@ const embeddedPoints = [
   "Linear Light Source! Lighting the way for Computed Tomography",
   "RSP! A Really Small Processor"
 ];
+
 const applicationPoints = [
   "Backgroundify! Want a new phone wallpaper? All the time?",
   "Developing Android Apps! What I did to learn Android Dev",
   "Happy Birthday! My friend is older than before"
 ];
+
 const webPoints = [
   "React! This page is in react",
   "React & Redux! Apps with R&R",
