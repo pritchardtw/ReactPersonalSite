@@ -248,12 +248,16 @@ a, a:hover, a:focus {
   cursor: pointer;
 }
 
-.e-mail-link {
+.contact-link {
   color: #333;
   text-decoration: none;
 }
 
-.e-mail-link:hover, .e-mail-link:visited, .e-mail-link:active, .e-mail-link:focus {
+.contact-link:hover {
   color: #333;
   text-decoration: underline;
+}
+
+.contact-link:active, .contact-link:visited, .contact-link:focus {
+  color: #333;
 }
