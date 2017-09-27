@@ -247,3 +247,13 @@ a, a:hover, a:focus {
 .clickable:hover {
   cursor: pointer;
 }
+
+.e-mail-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.e-mail-link:hover, .e-mail-link:visited, .e-mail-link:active, .e-mail-link:focus {
+  color: #333;
+  text-decoration: underline;
+}
