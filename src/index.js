@@ -4,14 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
-const ReactGA = require('react-ga');
-ReactGA.initialize('UA-103180508-1', { debug: false });
-
-const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname + window.location.search });
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}
-
+import withTracker from './components/withTracker';
 import App from './components/Home/app';
 import Embedded from './components/Embedded/embedded';
 import Application from './components/Application/application';
@@ -22,13 +15,13 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <BrowserRouter onUpdate={logPageView}>
+    <BrowserRouter>
       <div>
         <Switch>
-          <Route path="/Embedded" component={Embedded} />
-          <Route path="/Application" component={Application} />
-          <Route path="/Web" component={Web} />
-          <Route path="/" component={App} />
+          <Route path="/Embedded" component={withTracker(Embedded)} />
+          <Route path="/Application" component={withTracker(Application)} />
+          <Route path="/Web" component={withTracker(Web)} />
+          <Route path="/" component={withTracker(App)} />
         </Switch>
       </div>
     </BrowserRouter>
