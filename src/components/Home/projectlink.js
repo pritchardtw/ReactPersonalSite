@@ -12,15 +12,16 @@ export default class ProjectLink extends Component {
 
   render() {
     return(
-      <Link to={this.props.name}>
-        <div className="projectlink">
-          <div className="image-class" id={this.props.name}></div>
-          <h1>{this.props.name}!</h1>
-          <ul>
-            {this.renderPoints()}
-          </ul>
-        </div>
-      </Link>
+      <div className="projectlink">
+        <div className="image-class" id={this.props.name}></div>
+        <h1>{this.props.name}!</h1>
+        <ul>
+          {this.renderPoints()}
+        </ul>
+        <Link to={this.props.name}>
+          <button className="btn">View Projects -></button>
+        </Link>
+      </div>
     )
   }
 }

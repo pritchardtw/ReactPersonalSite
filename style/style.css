@@ -177,21 +177,14 @@ a, a:hover, a:focus {
   cursor: pointer;
 }
 
-.projectlink:hover {
-  box-shadow: gray 15px 15px 15px;
-  transition: box-shadow 150ms ease-in;
-}
-
 .projectlink {
   text-align: center;
   padding: 2vw;
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  box-shadow: gray 9px 9px 9px;
   margin: 4vh 0;
   border-radius: 5px;
-  transition: box-shadow 150ms ease-in
 }
 
 .projectlink ul li {
@@ -260,4 +253,20 @@ a, a:hover, a:focus {
 
 .contact-link:active, .contact-link:visited, .contact-link:focus {
   color: #333;
+}
+
+.btn {
+  color: black;
+  font-family: 'Allan', sans;
+  font-size: 1.7rem;
+  background-color: white;
+  border-color: black;
+  box-shadow: gray 3px 3px 3px;
+  transition: box-shadow 150ms ease-in
+}
+
+.btn:hover {
+  box-shadow: gray 6px 6px 6px;
+  transition: box-shadow 150ms ease-in;
+  color: #00d0ff;
 }
