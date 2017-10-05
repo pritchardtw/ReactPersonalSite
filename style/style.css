@@ -155,7 +155,6 @@ a, a:hover, a:focus {
 
 .project h1 {
     font-family: 'Allan', cursive;
-    font-style: italic;
     color: black;
 }
 
@@ -226,6 +225,8 @@ a, a:hover, a:focus {
   color: white;
   text-decoration: none;
   font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
 .section-break {
