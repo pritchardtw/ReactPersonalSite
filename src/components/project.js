@@ -15,6 +15,9 @@ export default class Project extends Component {
       <div className="project">
         <HomeTab />
         <h1>{title}</h1>
+        {
+          this.props.link ? <a href={this.props.link} target="_blank">Check it out here!</a> : <a></a>
+        }
         <p>
           {description}
         </p>
