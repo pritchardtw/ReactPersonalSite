@@ -12,7 +12,7 @@ export default class ResumeNavitem extends Component {
 
   render() {
     return(
-      <a href="../../static/resume/Thomas Pritchard Sw Resume 2017.pdf" target="_blank">
+      <a href="../../static/resume/ThomasPritchardResume2017.pdf" target="_blank">
         <li
         className="nav-item"
         id="Resume"
