@@ -7,6 +7,8 @@ import CodeAcademy from './codeacademy';
 import PersonalSite from './personalsite';
 import ReactPersonalSite from './reactpersonalsite';
 import HealthApp from './health_app';
+import DataViewer from './data_viewer';
+import Tournament from './tournament';
 
 export default class Web extends Component {
 
@@ -17,7 +19,11 @@ export default class Web extends Component {
   render() {
     return(
       <div>
+        <DataViewer />
+        <SectionBreak />
         <HealthApp />
+        <SectionBreak />
+        <Tournament />
         <SectionBreak />
         <ReactPersonalSite />
         <SectionBreak />
