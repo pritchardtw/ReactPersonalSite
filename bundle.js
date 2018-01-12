@@ -87,7 +87,7 @@
 
 	var _web2 = _interopRequireDefault(_web);
 
-	var _reducers = __webpack_require__(360);
+	var _reducers = __webpack_require__(362);
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
@@ -46521,7 +46521,11 @@
 
 	var _data_viewer2 = _interopRequireDefault(_data_viewer);
 
-	var _tournament = __webpack_require__(359);
+	var _javascript = __webpack_require__(359);
+
+	var _javascript2 = _interopRequireDefault(_javascript);
+
+	var _tournament = __webpack_require__(361);
 
 	var _tournament2 = _interopRequireDefault(_tournament);
 
@@ -46553,6 +46557,8 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_javascript2.default, null),
+	        _react2.default.createElement(_sectionbreak2.default, null),
 	        _react2.default.createElement(_data_viewer2.default, null),
 	        _react2.default.createElement(_sectionbreak2.default, null),
 	        _react2.default.createElement(_health_app2.default, null),
@@ -47029,6 +47035,123 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _javascript30_links = __webpack_require__(360);
+
+	var _javascript30_links2 = _interopRequireDefault(_javascript30_links);
+
+	var _project = __webpack_require__(261);
+
+	var _project2 = _interopRequireDefault(_project);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var images = ['../../static/images/web/javascript30.png'];
+
+	var Javascript30 = function (_Component) {
+	  _inherits(Javascript30, _Component);
+
+	  function Javascript30() {
+	    _classCallCheck(this, Javascript30);
+
+	    return _possibleConstructorReturn(this, (Javascript30.__proto__ || Object.getPrototypeOf(Javascript30)).apply(this, arguments));
+	  }
+
+	  _createClass(Javascript30, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(_project2.default, {
+	          title: 'Javascript30!',
+	          link: 'https://javascript30.com/',
+	          description: 'Javscript30 is a 30 day challenge where you complete one small javascript app per day for 30 days. It\'s all bare-bones javascript. After speaking with some veteran developers about their complaints with new developers, they explained new devs know a lot about modern frameworks, but not so much about Javascript basics. This is part of my effort to buff up my basic javascript knowledge. I took more than 30 days, sometimes doing more than one per day, sometimes doing none. I learned a boatload about things like dom manipulation, native browser features, and interfacing with hardware like the local storage, web cams, and microphones. Did you know the browser can do text to speach AND speach to text?! Check out the link above to gain more insight into Javascript30.',
+	          images: images }),
+	        _react2.default.createElement(_javascript30_links2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Javascript30;
+	}(_react.Component);
+
+	exports.default = Javascript30;
+
+/***/ }),
+/* 360 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Javascript30Links = function (_Component) {
+	  _inherits(Javascript30Links, _Component);
+
+	  function Javascript30Links() {
+	    _classCallCheck(this, Javascript30Links);
+
+	    return _possibleConstructorReturn(this, (Javascript30Links.__proto__ || Object.getPrototypeOf(Javascript30Links)).apply(this, arguments));
+	  }
+
+	  _createClass(Javascript30Links, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'project' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '../../../Javascript30/', target: '_blank' },
+	          'My Javascript30 Projects'
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Javascript30Links;
+	}(_react.Component);
+
+	exports.default = Javascript30Links;
+
+/***/ }),
+/* 361 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
 	var _project = __webpack_require__(261);
 
 	var _project2 = _interopRequireDefault(_project);
@@ -47069,7 +47192,7 @@
 	exports.default = Tournament;
 
 /***/ }),
-/* 360 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';

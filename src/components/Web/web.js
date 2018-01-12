@@ -8,6 +8,7 @@ import PersonalSite from './personalsite';
 import ReactPersonalSite from './reactpersonalsite';
 import HealthApp from './health_app';
 import DataViewer from './data_viewer';
+import Javascript30 from './javascript30';
 import Tournament from './tournament';
 
 export default class Web extends Component {
@@ -19,6 +20,8 @@ export default class Web extends Component {
   render() {
     return(
       <div>
+        <Javascript30 />
+        <SectionBreak />
         <DataViewer />
         <SectionBreak />
         <HealthApp />
