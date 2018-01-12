@@ -49932,8 +49932,8 @@
 	        null,
 	        _react2.default.createElement(_project2.default, {
 	          title: 'Javascript30!',
-	          link: 'https://javascript30.com/',
-	          description: 'Javscript30 is a 30 day challenge where you complete one small javascript app per day for 30 days. It\'s all bare-bones javascript. After speaking with some veteran developers about their complaints with new developers, they explained new devs know a lot about modern frameworks, but not so much about Javascript basics. This is part of my effort to buff up my basic javascript knowledge. I took more than 30 days, sometimes doing more than one per day, sometimes doing none. I learned a boatload about things like dom manipulation, native browser features, and interfacing with hardware like the local storage, web cams, and microphones. Did you know the browser can do text to speach AND speach to text?! Check out the link above to gain more insight into Javascript30.',
+	          link: 'Javascript30',
+	          description: 'Javscript30 is a 30 day challenge where you complete one small Javascript app per day for 30 days. It\'s all bare-bones Javascript. After speaking with some veteran developers about their complaints with new developers, they explained new devs know a lot about modern frameworks, but not so much about Javascript basics. This is part of my effort to buff up my basic Javascript knowledge. I took more than 30 days, sometimes doing more than one per day, sometimes doing none. I learned a boatload about things like dom manipulation, native browser features, and interfacing with hardware like the local storage, web cams, and microphones. Did you know the browser can do text to speach AND speach to text?! Check out the link above to see my implementations. The index-FINISHED.html files are the solutions provided by the author, Wes Bos. The index-START.html are the ones I completed. Some of them only have one index.html and those all link to the scripts I had to complete.',
 	          images: images }),
 	        _react2.default.createElement(_javascript30_links2.default, null)
 	      );
@@ -49986,8 +49986,20 @@
 	        { className: 'project' },
 	        _react2.default.createElement(
 	          'a',
-	          { href: 'file:///../../../Javascript30/', target: '_blank' },
-	          'My Javascript30 Projects'
+	          { href: 'https://Javascript30.com', target: '_blank' },
+	          'Javascript30 Web Page'
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://github.com/wesbos/JavaScript30', target: '_blank' },
+	          'Javascript30 Github Repo'
+	        ),
+	        _react2.default.createElement('br', null),
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://wesbos.com/', target: '_blank' },
+	          'Wes Bos\'s Website'
 	        )
 	      );
 	    }
