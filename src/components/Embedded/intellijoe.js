@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  "../../static/images/embedded/intellijoe/blockdiagram.png"
-];
-
 export default class IntelliJoe extends Component {
+
   render() {
+    const images = [
+      "../../static/images/embedded/intellijoe/blockdiagram.png"
+    ];
+
     return(
       <Project
         title="Intelli Joe!"

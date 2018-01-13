@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-];
-
 export default class PersonalSite extends Component {
 
   render() {
+    const images = [
+    ];
+
     return(
       <Project
         title="Personal Website!"

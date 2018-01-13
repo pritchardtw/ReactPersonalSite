@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/baywatch.png'
-];
-
 export default class Baywatch extends Component {
 
   render() {
+    const images = [
+      '../../static/images/web/baywatch.png'
+    ];
+
     return(
       <Project
         title="Baywatch!"

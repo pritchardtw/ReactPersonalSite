@@ -43335,8 +43335,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ["../../static/images/embedded/intellijoe/blockdiagram.png"];
-
 	var IntelliJoe = function (_Component) {
 	  _inherits(IntelliJoe, _Component);
 
@@ -43349,6 +43347,8 @@
 	  _createClass(IntelliJoe, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ["../../static/images/embedded/intellijoe/blockdiagram.png"];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Intelli Joe!',
 	        description: 'I participated in a Milwaukee Hackathon with my co-workers. In addition to myself, we had another Software Engineer, an Electrical Engineer, and a Mechanical Engineer. We won the \u201CNerdiest Project\u201D. I picked out all the hardware for the project and coded some Python scripts used to toggle the Raspberry Pi GPIO. The goal was to create an IoT coffee pot. We wanted to be able to turn the pot on before leaving for the office, so by the time we arrived we would have hot coffee waiting for us. A secondary feature is that we could also turn the pot off from home in case we forgot to at the end of the day. During the 8 hour hackathon we achieved the ability to turn the pot on and off via a cell phone. This proof of concept proved out our digital datapath infrastructure. At that point we were only limited by whatever sensors we wanted to harness to the coffee pot. Some value add features we wanted were -Temperature Sensor - to gauge hotness -Force Sensor - to gauge fullness -Optical Sensor - to gauge fullness should the force sensor not work so well (because the coffee pot weighs the same whether the waters in the pot or the reservoir.) -Switch - to gauge if the pot is in the coffee maker or currently gone.',
@@ -48970,8 +48970,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ["../../static/images/embedded/linearlightsource/controllerblockdiagram.png", "../../static/images/embedded/linearlightsource/schematic.png", "../../static/images/embedded/linearlightsource/pcb.png", "../../static/images/embedded/linearlightsource/prototype.png", "../../static/images/embedded/linearlightsource/arduino.png", "../../static/images/embedded/linearlightsource/GUI.png"];
-
 	var LinearLightSource = function (_Component) {
 	  _inherits(LinearLightSource, _Component);
 
@@ -48984,6 +48982,8 @@
 	  _createClass(LinearLightSource, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ["../../static/images/embedded/linearlightsource/controllerblockdiagram.png", "../../static/images/embedded/linearlightsource/schematic.png", "../../static/images/embedded/linearlightsource/pcb.png", "../../static/images/embedded/linearlightsource/prototype.png", "../../static/images/embedded/linearlightsource/arduino.png", "../../static/images/embedded/linearlightsource/GUI.png"];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Linear Light Source',
 	        description: 'This project was part of my senior design course in college. We worked with the GE Healthcare - Imaging - Computed Tomography (CT) team. In a CT machine, radiation rays blast through your body and collide with a special cintilating material on a circuit board. The more radiation that collides with the cintilating material the more the material glows. The glowing is captured by a photo-diode and related to a voltage output from the diode. The voltage is captured by an ADC and sent to a reconstruction engine. The information from all the cintilating nodes is combined to form an image of your body. In this machine an important assumption is made that the relationship between the glowing from the cintilating material and voltage produced from the diode is linear. We were tasked with developing a tool to test the lineaerity of the photo-diodes. We planned to have a power supply, LED Driver, micro-controller, and some sensors. My formal responsibility was the micro-controller design, but I put a lot of effort into the LED Driver and sensors as well. The actual protoype was a power supply, an arduino, an LED Driver, current sensor, voltage sensor, and an LED light. We used Matlab\'s \'GUIde\' tool to create a GUI. I programmed the GUI to work with the arduino to set the PWM levels to the LED and sample the voltages and currents generated from the sensors. As part of the micro-controller development I also created a block diagram, schematic, and PCB layout.',
@@ -49024,8 +49024,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ["../../static/images/embedded/rsp/rsp.png"];
-
 	var Rsp = function (_Component) {
 	  _inherits(Rsp, _Component);
 
@@ -49038,6 +49036,8 @@
 	  _createClass(Rsp, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ["../../static/images/embedded/rsp/rsp.png"];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Really Small Processor',
 	        description: 'This project was a lab during my college microprocessors class. We hand wired a really small processor that has two 8 bit data registers, an ALU (arithmetic logic unit), a dip switch input, a pushbutton input, and 3 LEDs (red yellow green). We wrote some assembly code to create a security program where you input a code to the dip switch, hit the button, and see if the light turns green or red. Additionally, we programmed the LEDs to act like a stoplight.',
@@ -49197,8 +49197,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/application/backgroundify_desktop.png', '../../static/images/application/backgroundify_updated_ui.png', '../../static/images/application/backgroundify_freq.png'];
-
 	var Backgroundify = function (_Component) {
 	  _inherits(Backgroundify, _Component);
 
@@ -49211,6 +49209,8 @@
 	  _createClass(Backgroundify, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/application/backgroundify_desktop.png', '../../static/images/application/backgroundify_updated_ui.png', '../../static/images/application/backgroundify_freq.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Backgroundify!',
 	        description: 'I learned enough android to make my first original app! Backgroundify! Below you can see Backgroundify in my Galaxy S6. Backgroundify will set your device\'s wallpaper to any website you specify. What\'s neat is it will auto update the wallpaper at a specified interval as well. Backgroundify is to a point where I have an MVP and the next step I\'d like to do is figure out monetization. The free version will allow auto update at a frequency of once per day or less. The $0.99 app will allow auto update at up to a 1 minute interval and also allow you to set the lock screen wallpaper. (Setting the lock screen wallpaper is only available in devices running android api 24 or later). If Backgroundify became popular enough I would expand it in the following ways. First I would implement preferences that allow you to specify websites for each individual wallpaper. Each of those would be able to update at their own frequency. Then I would consider adding multiple url\'s to each wallpaper so each desktop can cycle through their own images. Finally, if backgroundify was really popular, I could make a website where users upload their own images or pick from stock photos. They would login to their account on the site and the android app and they could customize their backgrounds through the webpage. At this point I think it would be worthy of a monthly subscription service. When it opens the user is presented with the main activity which just contains a settings fragment, web view preview, and two buttons to load the preview and apply the backgroundification. Below you see what it looks like when the user udpates the frequency setting.',
@@ -49251,8 +49251,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/application/directory1.png', '../../static/images/application/directory2.png', '../../static/images/application/directory3.png', '../../static/images/application/directory4.png', '../../static/images/application/directory5.png', '../../static/images/application/directory6.png'];
-
 	var DevelopingAndroidApps = function (_Component) {
 	  _inherits(DevelopingAndroidApps, _Component);
 
@@ -49265,6 +49263,8 @@
 	  _createClass(DevelopingAndroidApps, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/application/directory1.png', '../../static/images/application/directory2.png', '../../static/images/application/directory3.png', '../../static/images/application/directory4.png', '../../static/images/application/directory5.png', '../../static/images/application/directory6.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Developing Android Apps!',
 	        description: 'I finally finished Developing Android Apps! Wow that was a thorough class. Below you can see the directory tree of the course content. Each exercise/solution pair was a lab in the course. The Sunshine portion is the course-long app where we applied each lesson we learned in the Exercises portion. We covered the four major players in an Android App (Activities, Services, Broadcast Receivers, Content Providers). The course also handled developing UIs, interfacing with REST APIs, Intents, and Local Storage in addition to other things. Google and Udacity teamed up to create this course, so you know that the course taught the best practices when it comes to Android development.',
@@ -49305,8 +49305,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/application/appss.png'];
-
 	var HappyBirthday = function (_Component) {
 	  _inherits(HappyBirthday, _Component);
 
@@ -49319,6 +49317,8 @@
 	  _createClass(HappyBirthday, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/application/appss.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Happy Birthday!',
 	        description: 'I followed a udacity beginner android course to make my first app, the happy birthday app. It\'s a picture of my friend Derek, and the app wishes him a happy birthday. It provides a reminder that I, Tom, am wishing him a happy birthday, not Jack or Michael. This helps secure my position as #1 friend. Lessons learned in this course were using a relative layout, two text views, and an image view. We styled the text and images to have a nice modern format.',
@@ -49475,8 +49475,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/blog1.png', '../../static/images/web/blog2.png', '../../static/images/web/blog3.png'];
-
 	var ReactRedux = function (_Component) {
 	  _inherits(ReactRedux, _Component);
 
@@ -49489,6 +49487,8 @@
 	  _createClass(ReactRedux, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/blog1.png', '../../static/images/web/blog2.png', '../../static/images/web/blog3.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'React & Redux Blog App!',
 	        description: 'Check out this blog app I created in the react and redux course I took! It uses react, redux, redux-promise, redux-forms, amongst other packages. It interfaces to an api where you can perform all CRUD operations.',
@@ -49529,8 +49529,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/youtube_search.png', '../../static/images/web/book_explorer.png', '../../static/images/web/weather_app.png'];
-
 	var ReactReduxApps = function (_Component) {
 	  _inherits(ReactReduxApps, _Component);
 
@@ -49543,6 +49541,8 @@
 	  _createClass(ReactReduxApps, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/youtube_search.png', '../../static/images/web/book_explorer.png', '../../static/images/web/weather_app.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'React & Redux Course!',
 	        description: 'I\'m learning react and redux. I\'ve completed the codeacademy.com courses, but I\'m understanding they are a little dated. After perusing udemy.com I\'ve found a course by Stephen Grider. Students such as myself learn the newest react and es6 practices complete with Babel and Webpack. So far I\'ve followed the course to construct a youtube video search pictured below, which was used to introduce us to react. Next we built a simple book explorer with react and redux to get introduced to redux\'s state management concepts of reducers, actions, and action creators. We then built a weather app using open weather API, Sparklines, and google maps javascript libraries. In this app you can enter a city and get a brief understanding of the upcoming weather.',
@@ -49583,8 +49583,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/baywatch.png'];
-
 	var Baywatch = function (_Component) {
 	  _inherits(Baywatch, _Component);
 
@@ -49597,6 +49595,8 @@
 	  _createClass(Baywatch, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/baywatch.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Baywatch!',
 	        description: 'I created baywatch to save my employer $832,000.00/year as a side project at work. There was no centralized tool to live monitor our system configurations, and we often found ourselves manually ssh-ing into each system to find out the information. The system software and hardware are often changing, and this app will tell you the current system configuration with data that is no older than 5 minutes. The web app was written using the Flask framework for Python. I used sqlalchemy as an Object Relational Mapping tool with an sqlite database to hold the system information. I created a Python service using paramiko that ssh\'s into the systems in the database every 5 minutes and updates the database with the latest information. The web app then interfaces to the database to perform all CRUD operations. A user can add a system to the app by providing a name and IP. They can edit an existing system\'s name or IP. Finally, they can delete a bay if it is no longer relevant. The best part about baywatch is the name. Our systems are called \'Bays\', and it\'s watching the status of the bays. So, Baywatch! Oh and also the part where it saves about 400 people from manually performing 10 minutes of ssh-ing a day. Assuming an average salary of a typical user (engineers, program managers, functional managers) is $100,000.00/year or $8.00/10 minutes, that\'s $3,200.00/day, or $832,000.00/year. I temporarily changed the font for the screen shot.',
@@ -49637,8 +49637,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/codeacademy_complete_courses.png'];
-
 	var CodeAcademy = function (_Component) {
 	  _inherits(CodeAcademy, _Component);
 
@@ -49651,6 +49649,8 @@
 	  _createClass(CodeAcademy, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/codeacademy_complete_courses.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'CodeAcademy!',
 	        description: 'I\'ve been doing web work on codeacademy.com!',
@@ -49691,8 +49691,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = [];
-
 	var PersonalSite = function (_Component) {
 	  _inherits(PersonalSite, _Component);
 
@@ -49705,6 +49703,8 @@
 	  _createClass(PersonalSite, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = [];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Personal Website!',
 	        description: 'This web page is my first web project. I completed the codeacademy \'Deploy a Website\', \'Learn HTML & CSS: Part I\', and \'Learn JavaScript\' before creating it. I tried to make sure the page works well on mobile and dektop, so if you\'re curious check it out on both mediums.',
@@ -49745,8 +49745,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = [];
-
 	var ReactPersonalSite = function (_Component) {
 	  _inherits(ReactPersonalSite, _Component);
 
@@ -49759,6 +49757,8 @@
 	  _createClass(ReactPersonalSite, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = [];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Personal Website in React!',
 	        description: 'This website is written in react! After taking \'Modern React & Redux\' on udemy by Stephen Grider I was able to re-write my site in react.',
@@ -49799,8 +49799,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/true_health1.png', '../../static/images/web/true_health2.png', '../../static/images/web/true_health3.png'];
-
 	var HealthApp = function (_Component) {
 	  _inherits(HealthApp, _Component);
 
@@ -49813,6 +49811,8 @@
 	  _createClass(HealthApp, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/true_health1.png', '../../static/images/web/true_health2.png', '../../static/images/web/true_health3.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Health App!',
 	        link: 'https://health-app-3.firebaseapp.com/',
@@ -49854,8 +49854,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/dataviewer1.png', '../../static/images/web/dataviewer2.png', '../../static/images/web/dataviewer3.png'];
-
 	var DataViewer = function (_Component) {
 	  _inherits(DataViewer, _Component);
 
@@ -49868,6 +49866,8 @@
 	  _createClass(DataViewer, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/dataviewer1.png', '../../static/images/web/dataviewer2.png', '../../static/images/web/dataviewer3.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Data Viewer!',
 	        link: '',
@@ -49913,8 +49913,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/javascript30.png'];
-
 	var Javascript30 = function (_Component) {
 	  _inherits(Javascript30, _Component);
 
@@ -49927,6 +49925,8 @@
 	  _createClass(Javascript30, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/javascript30.png'];
+
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -50038,8 +50038,6 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var images = ['../../static/images/web/tournament1.png', '../../static/images/web/tournament2.png', '../../static/images/web/tournament3.png'];
-
 	var Tournament = function (_Component) {
 	  _inherits(Tournament, _Component);
 
@@ -50052,6 +50050,8 @@
 	  _createClass(Tournament, [{
 	    key: 'render',
 	    value: function render() {
+	      var images = ['../../static/images/web/tournament1.png', '../../static/images/web/tournament2.png', '../../static/images/web/tournament3.png'];
+
 	      return _react2.default.createElement(_project2.default, {
 	        title: 'Tournament Single Elimination Simulation!',
 	        link: '',

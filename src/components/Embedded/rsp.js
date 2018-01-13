@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  "../../static/images/embedded/rsp/rsp.png"
-];
-
 export default class Rsp extends Component {
+  
   render() {
+    const images = [
+      "../../static/images/embedded/rsp/rsp.png"
+    ];
+
     return(
       <Project
         title="Really Small Processor"

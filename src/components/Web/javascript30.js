@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import Javascript30Links from './javascript30_links';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/javascript30.png',
-];
-
 export default class Javascript30 extends Component {
+  
   render() {
+    const images = [
+      '../../static/images/web/javascript30.png',
+    ];
+
     return(
       <div>
         <Project

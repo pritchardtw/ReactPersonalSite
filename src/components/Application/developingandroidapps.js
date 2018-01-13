@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/application/directory1.png',
-  '../../static/images/application/directory2.png',
-  '../../static/images/application/directory3.png',
-  '../../static/images/application/directory4.png',
-  '../../static/images/application/directory5.png',
-  '../../static/images/application/directory6.png'
-];
 
 export default class DevelopingAndroidApps extends Component {
+  
   render() {
+    const images = [
+      '../../static/images/application/directory1.png',
+      '../../static/images/application/directory2.png',
+      '../../static/images/application/directory3.png',
+      '../../static/images/application/directory4.png',
+      '../../static/images/application/directory5.png',
+      '../../static/images/application/directory6.png'
+    ];
+
     return(
       <Project
         title="Developing Android Apps!"

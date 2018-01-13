@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/application/backgroundify_desktop.png',
-  '../../static/images/application/backgroundify_updated_ui.png',
-  '../../static/images/application/backgroundify_freq.png',
-];
+
 
 export default class Backgroundify extends Component {
+  
   render() {
+    const images = [
+      '../../static/images/application/backgroundify_desktop.png',
+      '../../static/images/application/backgroundify_updated_ui.png',
+      '../../static/images/application/backgroundify_freq.png',
+    ];
+
     return(
       <Project
         title="Backgroundify!"

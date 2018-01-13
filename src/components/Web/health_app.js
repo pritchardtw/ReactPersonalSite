@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/true_health1.png',
-  '../../static/images/web/true_health2.png',
-  '../../static/images/web/true_health3.png'
-];
-
 export default class HealthApp extends Component {
-
   render() {
+    const images = [
+      '../../static/images/web/true_health1.png',
+      '../../static/images/web/true_health2.png',
+      '../../static/images/web/true_health3.png'
+    ];
+
     return(
       <Project
         title="Health App!"

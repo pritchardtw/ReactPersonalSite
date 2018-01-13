@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/youtube_search.png',
-  '../../static/images/web/book_explorer.png',
-  '../../static/images/web/weather_app.png',
-];
-
 export default class ReactReduxApps extends Component {
 
   render() {
+    const images = [
+      '../../static/images/web/youtube_search.png',
+      '../../static/images/web/book_explorer.png',
+      '../../static/images/web/weather_app.png',
+    ];
+
     return(
       <Project
         title="React & Redux Course!"

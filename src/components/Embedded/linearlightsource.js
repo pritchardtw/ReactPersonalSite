@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  "../../static/images/embedded/linearlightsource/controllerblockdiagram.png",
-  "../../static/images/embedded/linearlightsource/schematic.png",
-  "../../static/images/embedded/linearlightsource/pcb.png",
-  "../../static/images/embedded/linearlightsource/prototype.png",
-  "../../static/images/embedded/linearlightsource/arduino.png",
-  "../../static/images/embedded/linearlightsource/GUI.png",
-];
-
 export default class LinearLightSource extends Component {
+  
   render() {
+    const images = [
+      "../../static/images/embedded/linearlightsource/controllerblockdiagram.png",
+      "../../static/images/embedded/linearlightsource/schematic.png",
+      "../../static/images/embedded/linearlightsource/pcb.png",
+      "../../static/images/embedded/linearlightsource/prototype.png",
+      "../../static/images/embedded/linearlightsource/arduino.png",
+      "../../static/images/embedded/linearlightsource/GUI.png",
+    ];
+
     return(
       <Project
         title="Linear Light Source"

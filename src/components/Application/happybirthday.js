@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/application/appss.png'
-];
+
 
 export default class HappyBirthday extends Component {
 
   render() {
+    const images = [
+      '../../static/images/application/appss.png'
+    ];
+
     return(
       <Project
         title="Happy Birthday!"

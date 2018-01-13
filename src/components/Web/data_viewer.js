@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/dataviewer1.png',
-  '../../static/images/web/dataviewer2.png',
-  '../../static/images/web/dataviewer3.png'
-];
-
 export default class DataViewer extends Component {
   render() {
+    const images = [
+      '../../static/images/web/dataviewer1.png',
+      '../../static/images/web/dataviewer2.png',
+      '../../static/images/web/dataviewer3.png'
+    ];
+
     return(
       <Project
         title="Data Viewer!"

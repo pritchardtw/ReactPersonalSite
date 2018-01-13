@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/codeacademy_complete_courses.png'
-];
-
 export default class CodeAcademy extends Component {
 
   render() {
+    const images = [
+      '../../static/images/web/codeacademy_complete_courses.png'
+    ];
+
     return(
       <Project
         title="CodeAcademy!"

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Project from '../project';
 
-const images = [
-  '../../static/images/web/tournament1.png',
-  '../../static/images/web/tournament2.png',
-  '../../static/images/web/tournament3.png'
-];
-
 export default class Tournament extends Component {
+  
   render() {
+    const images = [
+      '../../static/images/web/tournament1.png',
+      '../../static/images/web/tournament2.png',
+      '../../static/images/web/tournament3.png'
+    ];
+
     return(
       <Project
         title="Tournament Single Elimination Simulation!"
