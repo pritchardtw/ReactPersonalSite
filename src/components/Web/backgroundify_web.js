@@ -16,7 +16,7 @@ export default class Baywatch extends Component {
         loads a url in an invisible browser, takes a screen shot, and sets it as the device wallpaper (background). This is a
         fairly simple page, but I wanted to be able to have a website to use in Backgroundify that has
         nice pictures. Eventually I will add more pages with updating images that enable a user to have
-        rotating pictures as their background with a single backgroundify url."
+        rotating pictures as their background with a single Backgroundify url."
         images={images} />
     );
   }
