@@ -10,6 +10,7 @@ import HealthApp from './health_app';
 import DataViewer from './data_viewer';
 import Javascript30 from './javascript30';
 import Tournament from './tournament';
+import BackgroundifyWeb from './backgroundify_web'
 
 export default class Web extends Component {
 
@@ -20,6 +21,8 @@ export default class Web extends Component {
   render() {
     return(
       <div>
+        <BackgroundifyWeb />
+        <SectionBreak />
         <Javascript30 />
         <SectionBreak />
         <DataViewer />
